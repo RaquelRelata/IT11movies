@@ -18,6 +18,13 @@ h1 {
   padding: 10px;
   border: 1px solid #ccc;
   width: 200px;
+  text-align: center; /* Center text inside movie card */
+}
+
+.movie-card img {
+  max-width: 100%; /* Image will fit within the card width */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Optional: adds rounded corners to images */
 }
 
 #search-bar {
@@ -25,11 +32,11 @@ h1 {
   display: block;
   width: 300px;
   padding: 10px;
-
 }
-#search-btn{
-margin: 20px auto;
-display: block;
-width: 300px;
-padding: 10px;
+
+#search-btn {
+  margin: 20px auto;
+  display: block;
+  width: 300px;
+  padding: 10px;
 }
